@@ -3,12 +3,22 @@ layout: default
 title: Bayraktar Yatırım Danışmanlık
 ---
 
+<style>
+body {
+  /* Sayfanın tamamında dikey degrade arka plan */
+  background: linear-gradient(to bottom, #be1a1b 0%, #5D0808 100%);
+}
+</style>
+
 # Bayraktar Yatırım Danışmanlık
 
 <!-- Menü: Başlığın altında, tıklanabilir buton olarak -->
 <div style="margin-bottom: 24px;">
   <button onclick="document.getElementById('about-panel').style.display='block'" style="margin-right:16px; background:#0056b3; color:#fff; border:none; border-radius:7px; padding:8px 16px; font-weight:bold; cursor:pointer;">Hakkımızda</button>
-  <button onclick="document.getElementById('mission-panel').style.display='block'" style="background:#0056b3; color:#fff; border:none; border-radius:7px; padding:8px 16px; font-weight:bold; cursor:pointer;">Misyonumuz</button>
+  <button onclick="document.getElementById('mission-panel').style.display='block'" style="margin-right:16px; background:#0056b3; color:#fff; border:none; border-radius:7px; padding:8px 16px; font-weight:bold; cursor:pointer;">Misyonumuz</button>
+  <button onclick="document.getElementById('offices-panel').style.display='block'" style="background:#FFD700; color:#333; border:none; border-radius:7px; padding:10px 22px; font-weight:bold; cursor:pointer; font-size:17px;">
+    Ofisler ve Danışmanlarımız
+  </button>
 </div>
 
 <!-- Hakkımızda Paneli -->
@@ -51,13 +61,6 @@ title: Bayraktar Yatırım Danışmanlık
         sizi yalnızca bugüne değil, <em><strong>yarına da hazırlıyoruz</strong></em>. <br>
         Gayrimenkul yolculuğunuzun her adımında yanınızdayız.
       </p>
-      <hr style="margin:32px 0 14px 0; border-color: #fff;">
-      <!-- Ofisler ve Danışmanlar butonu -->
-      <div style="text-align:center;">
-        <button onclick="document.getElementById('offices-panel').style.display='block'" style="background:#FFD700; color:#333; border:none; border-radius:7px; padding:10px 22px; font-weight:bold; cursor:pointer; font-size:17px;">
-          Ofisler ve Danışmanlarımız
-        </button>
-      </div>
     </div>
   </div>
 </div>
@@ -94,13 +97,6 @@ title: Bayraktar Yatırım Danışmanlık
         Sektörde fark yaratan hizmet anlayışımızla, müşterilerimizin her adımda yanında olmayı ve 
         beklentilerinin ötesine geçmeyi hedefliyoruz.
       </p>
-      <hr style="margin:32px 0 14px 0; border-color: #fff;">
-      <!-- Ofisler ve Danışmanlar butonu -->
-      <div style="text-align:center;">
-        <button onclick="document.getElementById('offices-panel').style.display='block'" style="background:#FFD700; color:#333; border:none; border-radius:7px; padding:10px 22px; font-weight:bold; cursor:pointer; font-size:17px;">
-          Ofisler ve Danışmanlarımız
-        </button>
-      </div>
     </div>
   </div>
 </div>
@@ -169,35 +165,5 @@ title: Bayraktar Yatırım Danışmanlık
         </div>
       </div>
     </div>
-  </div>
-</div>
-
-<!-- Sayfa içerik düzeni: ana içerik + sağ panel -->
-<div style="display:flex; flex-direction:row; gap:24px; align-items:flex-start;">
-  <!-- Sol ana blok -->
-  <div style="flex:1; min-width:160px;">
-    <!-- Ana içerik boş -->
-  </div>
-
-  <!-- Sağ panel (ofis ve danışmanlar yok, sadece degrade panel) -->
-  <div style="
-    width:280px;
-    position:fixed;
-    right:32px;
-    top:120px;
-    background: linear-gradient(
-      to bottom,
-      rgba(120,119,124,1) 0%,
-      rgba(196,194,204,0) 100%
-    );
-    box-shadow:0 4px 16px #0001;
-    border-radius:0;
-    padding:16px;
-    z-index:100;
-    max-height:calc(100vh - 140px);
-    overflow:auto;
-    font-size:0.95em;
-  ">
-    <!-- Panel artık boş, yalnızca arka plan efekti duruyor -->
   </div>
 </div>
