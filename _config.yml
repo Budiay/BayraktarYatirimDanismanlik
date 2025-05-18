@@ -7,3 +7,6 @@ baseurl: "/bayraktaryatirimdanismanlik"
 lang: "tr"
 
 markdown: kramdown
+
+sass:
+  sass_dir: ""
