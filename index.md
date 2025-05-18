@@ -5,40 +5,54 @@ title: Bayraktar Yatırım Danışmanlık
 
 <style>
 body {
-  /* Sayfanın tamamında dikey degrade arka plan */
   background: linear-gradient(to bottom, #be1a1b 0%, #5D0808 100%);
+}
+.panel-popup-bg {
+  background: linear-gradient(to bottom, #be1a1b 0%, #5d0808 100%);
+  max-width:520px;
+  margin:60px auto;
+  border-radius:0;
+  padding:32px;
+  position:relative;
+  color:#fff;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  box-shadow:0 4px 24px #0005;
+}
+.panel-title-bg {
+  background: linear-gradient(to right, #C4C2CC 0%, rgba(196,194,204,0) 100%);
+  padding: 10px 0 10px 18px;
+  margin-bottom:24px;
+}
+.panel-title-h2 {
+  color: #FFD700;
+  font-weight: bold;
+  font-size:2.1em;
+  text-align:left;
+  margin:0;
+  letter-spacing: 0.5px;
 }
 </style>
 
 # Bayraktar Yatırım Danışmanlık
 
-<!-- Menü: Başlığın altında, tıklanabilir buton olarak -->
 <div style="margin-bottom: 24px;">
   <button onclick="document.getElementById('about-panel').style.display='block'" style="margin-right:16px; background:#0056b3; color:#fff; border:none; border-radius:7px; padding:8px 16px; font-weight:bold; cursor:pointer;">Hakkımızda</button>
   <button onclick="document.getElementById('mission-panel').style.display='block'" style="margin-right:16px; background:#0056b3; color:#fff; border:none; border-radius:7px; padding:8px 16px; font-weight:bold; cursor:pointer;">Misyonumuz</button>
-  <button onclick="document.getElementById('offices-panel').style.display='block'" style="background:#5D0808; color:#333; border:none; border-radius:7px; padding:10px 22px; font-weight:bold; cursor:pointer; font-size:17px;">
+  <button onclick="document.getElementById('offices-panel').style.display='block'" style="background:#FFD700; color:#333; border:none; border-radius:7px; padding:10px 22px; font-weight:bold; cursor:pointer; font-size:17px;">
     Ofisler ve Danışmanlarımız
   </button>
 </div>
 
 <!-- Hakkımızda Paneli -->
 <div id="about-panel" style="display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; background:rgba(0,0,0,0.35); z-index:9999;">
-  <div onclick="event.stopPropagation()" style="
-    background: linear-gradient(to bottom, #be1a1b 0%, #5d0808 100%);
-    max-width:520px;
-    margin:60px auto;
-    border-radius:10px;
-    padding:32px;
-    position:relative;
-    color:#fff;
-    font-family: Arial, sans-serif;
-    font-size: 15px;
-    box-shadow:0 4px 24px #0005;
-  ">
+  <div class="panel-popup-bg" onclick="event.stopPropagation()">
     <button onclick="document.getElementById('about-panel').style.display='none'" style="position:absolute; top:14px; right:14px; background:#fff; color:#be1a1b; border:none; border-radius:50%; width:32px; height:32px; font-size:22px; font-weight:bold; cursor:pointer;">×</button>
-    <h2 style="color: #FFD700; font-weight: bold; font-size:2.1em; text-align:center; margin-top:0; margin-bottom:24px; letter-spacing: 0.5px;">Hakkımızda</h2>
+    <div class="panel-title-bg">
+      <h2 class="panel-title-h2">Hakkımızda</h2>
+    </div>
     <div style="line-height: 1.6; max-width: 800px; margin: 0 auto;">
-      <h3 style="color: #5D0808; font-weight: bold; font-size:1.25em; margin-bottom:14px;">Bayraktar Yatırım Danışmanlık</h3>
+      <h3 style="color: #FFD700; font-weight: bold; font-size:1.25em; margin-bottom:14px;">Bayraktar Yatırım Danışmanlık</h3>
       <p style="font-size: 1em;">
         <strong>Bayraktar Yatırım Danışmanlık</strong>, gayrimenkul sektöründe uzmanlığı ve güvenilirliğiyle öne çıkan bir danışmanlık şirketidir. 
         Müşteri odaklı yaklaşımımız ve yüksek hizmet standartlarımızla, her bireyin ve yatırımcının ihtiyacına özel çözümler sunmayı amaçlıyoruz.
@@ -66,20 +80,11 @@ body {
 
 <!-- Misyonumuz Paneli -->
 <div id="mission-panel" style="display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; background:rgba(0,0,0,0.35); z-index:9999;">
-  <div onclick="event.stopPropagation()" style="
-    background: linear-gradient(to bottom, #be1a1b 0%, #5d0808 100%);
-    max-width:520px;
-    margin:60px auto;
-    border-radius:10px;
-    padding:32px;
-    position:relative;
-    color:#fff;
-    font-family: Arial, sans-serif;
-    font-size: 15px;
-    box-shadow:0 4px 24px #0005;
-  ">
+  <div class="panel-popup-bg" onclick="event.stopPropagation()">
     <button onclick="document.getElementById('mission-panel').style.display='none'" style="position:absolute; top:14px; right:14px; background:#fff; color:#be1a1b; border:none; border-radius:50%; width:32px; height:32px; font-size:22px; font-weight:bold; cursor:pointer;">×</button>
-    <h2 style="color: #FFD700; font-weight: bold; font-size:2.1em; text-align:center; margin-top:0; margin-bottom:24px; letter-spacing: 0.5px;">Misyonumuz</h2>
+    <div class="panel-title-bg">
+      <h2 class="panel-title-h2">Misyonumuz</h2>
+    </div>
     <div style="line-height: 1.6; max-width: 800px; margin: 0 auto;">
       <h3 style="color: #FFD700; font-weight: bold; font-size:1.25em; margin-bottom:14px;">Misyonumuz</h3>
       <p style="font-size: 1em;">
@@ -101,20 +106,11 @@ body {
 
 <!-- Ofisler ve Danışmanlarımız Paneli -->
 <div id="offices-panel" style="display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; background:rgba(0,0,0,0.35); z-index:9999;">
-  <div onclick="event.stopPropagation()" style="
-    background: linear-gradient(to bottom, #be1a1b 0%, #5d0808 100%);
-    max-width:520px;
-    margin:60px auto;
-    border-radius:10px;
-    padding:32px;
-    position:relative;
-    color:#fff;
-    font-family: Arial, sans-serif;
-    font-size: 15px;
-    box-shadow:0 4px 24px #0005;
-  ">
+  <div class="panel-popup-bg" onclick="event.stopPropagation()">
     <button onclick="document.getElementById('offices-panel').style.display='none'" style="position:absolute; top:14px; right:14px; background:#fff; color:#be1a1b; border:none; border-radius:50%; width:32px; height:32px; font-size:22px; font-weight:bold; cursor:pointer;">×</button>
-    <h2 style="color: #FFD700; font-weight: bold; font-size:2.1em; text-align:center; margin-top:0; margin-bottom:24px; letter-spacing: 0.5px;">Ofisler ve Danışmanlarımız</h2>
+    <div class="panel-title-bg">
+      <h2 class="panel-title-h2">Ofisler ve Danışmanlarımız</h2>
+    </div>
     <div style="margin-bottom:18px;">
       <div style="display: flex; align-items: center; justify-content: space-between;">
         <strong>Trabzon - Ortahisar</strong>
@@ -167,11 +163,9 @@ body {
 
 <script>
 document.addEventListener('click', function(e) {
-  // Açık olan üç paneli kontrol et
   ['about-panel','mission-panel','offices-panel'].forEach(function(pid) {
     var p = document.getElementById(pid);
     if (p && p.style.display !== 'none') {
-      // Sadece panelin arka planına tıklandıysa kapat
       if (e.target === p) { p.style.display='none'; }
     }
   });
