@@ -7,8 +7,36 @@ title: Bayraktar Yatırım Danışmanlık
 body {
   background: linear-gradient(to bottom, #be1a1b 0%, #5D0808 100%);
 }
+.menu-bar {
+  margin-bottom: 24px;
+  display: flex;
+  gap: 20px;
+}
+.menu-btn {
+  background: transparent;
+  color: #fff;
+  border: none;
+  border-radius: 0;
+  padding: 8px 18px;
+  font-weight: bold;
+  font-size: 1.17em;
+  cursor: pointer;
+  transition: color 0.2s;
+  box-shadow: none;
+  outline: none;
+  letter-spacing: 0.5px;
+}
+.menu-btn:hover,
+.menu-btn:focus {
+  color: #FFD700;
+  text-decoration: underline;
+}
 .panel-popup-bg {
-  background: linear-gradient(to bottom, #be1a1b 0%, #5d0808 100%);
+  background: linear-gradient(
+    to bottom,
+    rgba(93,8,8,1) 0%,
+    rgba(190,26,27,0) 100%
+  );
   max-width:520px;
   margin:60px auto;
   border-radius:0;
@@ -36,12 +64,11 @@ body {
 
 # Bayraktar Yatırım Danışmanlık
 
-<div style="margin-bottom: 24px;">
-  <button onclick="document.getElementById('about-panel').style.display='block'" style="margin-right:16px; background:#0056b3; color:#fff; border:none; border-radius:7px; padding:8px 16px; font-weight:bold; cursor:pointer;">Hakkımızda</button>
-  <button onclick="document.getElementById('mission-panel').style.display='block'" style="margin-right:16px; background:#0056b3; color:#fff; border:none; border-radius:7px; padding:8px 16px; font-weight:bold; cursor:pointer;">Misyonumuz</button>
-  <button onclick="document.getElementById('offices-panel').style.display='block'" style="background:#FFD700; color:#333; border:none; border-radius:7px; padding:10px 22px; font-weight:bold; cursor:pointer; font-size:17px;">
-    Ofisler ve Danışmanlarımız
-  </button>
+<!-- Menü -->
+<div class="menu-bar">
+  <button class="menu-btn" onclick="document.getElementById('about-panel').style.display='block'">Hakkımızda</button>
+  <button class="menu-btn" onclick="document.getElementById('mission-panel').style.display='block'">Misyonumuz</button>
+  <button class="menu-btn" onclick="document.getElementById('offices-panel').style.display='block'">Ofisler ve Danışmanlarımız</button>
 </div>
 
 <!-- Hakkımızda Paneli -->
