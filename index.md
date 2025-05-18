@@ -3,6 +3,16 @@ layout: null
 title: "Bayraktar Yatırım Danışmanlık"
 ---
 
+<link rel="stylesheet" href="assets/css/style.css">
+
+# Hoş Geldiniz
+...
+
+---
+layout: null
+title: "Bayraktar Yatırım Danışmanlık"
+---
+
 # Hoş Geldiniz
 
 Bayraktar Yatırım Danışmanlık sitesine hoş geldiniz.
