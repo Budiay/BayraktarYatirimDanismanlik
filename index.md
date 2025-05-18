@@ -1,36 +1,10 @@
 ---
-layout: default
-title: Hoş Geldiniz
+layout: null
+title: "Bayraktar Yatırım Danışmanlık"
 ---
 
-# Bayraktar Yatırım Danışmanlık
+# Hoş Geldiniz
 
-📍 Emlak ve İnşaat sektöründe güvenilir, şeffaf ve kaliteli hizmet ile yanınızdayız.
+Bayraktar Yatırım Danışmanlık sitesine hoş geldiniz.
 
----
-
-## Hakkımızda
-
-Bayraktar Yatırım Danışmanlık, sektör tecrübesiyle güven inşa eder.  
-Hayalinizdeki eve ulaşmanız için profesyonel çözümler sunar.
-
----
-
-## Hizmetlerimiz
-
-- 🏡 Satılık ve kiralık konutlar  
-- 🏢 Ticari mülk danışmanlığı  
-- 🛠️ İnşaat proje yönetimi  
-- 📊 Yatırım analizleri  
-
----
-
-## Bize Ulaşın
-
-📞 Telefon: 0 (212) 123 45 67  
-✉️ Mail: info@bayraktaryatirim.com  
-📍 İstanbul / Türkiye  
-
----
-
-#bayraktaryatırımdanışmanlık
+Emlak ve İnşaat sektöründe güvenilir, şeffaf ve kaliteli hizmet sunuyoruz.
