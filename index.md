@@ -5,19 +5,74 @@ title: Bayraktar Yatırım Danışmanlık
 
 # Bayraktar Yatırım Danışmanlık
 
-<!-- Menü: Başlığın hemen altında, yatay -->
-<nav style="margin-bottom: 24px; text-align:left;">
-  <a href="{{ site.baseurl }}/hakkinda.html" style="margin-right:18px; text-decoration:none; color:#0056b3; font-weight:bold;">Hakkımızda</a>
-  <a href="{{ site.baseurl }}/misyon.html" style="margin-right:18px; text-decoration:none; color:#0056b3; font-weight:bold;">Misyonumuz</a>
-  <a href="{{ site.baseurl }}/vizyon.html" style="text-decoration:none; color:#0056b3; font-weight:bold;">Vizyonumuz</a>
-</nav>
+<!-- Menü: Başlığın altında, tıklanabilir buton olarak -->
+<div style="margin-bottom: 24px;">
+  <button onclick="document.getElementById('about-panel').style.display='block'" style="margin-right:16px; background:#0056b3; color:#fff; border:none; border-radius:7px; padding:8px 16px; font-weight:bold; cursor:pointer;">Hakkımızda</button>
+  <button onclick="document.getElementById('mission-panel').style.display='block'" style="background:#0056b3; color:#fff; border:none; border-radius:7px; padding:8px 16px; font-weight:bold; cursor:pointer;">Misyonumuz</button>
+</div>
+
+<!-- Hakkımızda Paneli -->
+<div id="about-panel" style="display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; background:rgba(0,0,0,0.35); z-index:9999;">
+  <div style="background:#fff; max-width:520px; margin:60px auto; border-radius:10px; padding:32px; position:relative;">
+    <button onclick="document.getElementById('about-panel').style.display='none'" style="position:absolute; top:14px; right:14px; background:#eee; border:none; border-radius:50%; width:32px; height:32px; font-size:18px; cursor:pointer;">×</button>
+    <h2>Hakkımızda</h2>
+    <div style="font-family: Arial, sans-serif; color: #333; line-height: 1.6; font-size: 16px; max-width: 800px; margin: 0 auto;">
+      <h2 style="color: #BE1A1B; font-weight: bold;">Bayraktar Yatırım Danışmanlık</h2>
+      <p>
+        <strong>Bayraktar Yatırım Danışmanlık</strong>, gayrimenkul sektöründe uzmanlığı ve güvenilirliğiyle öne çıkan bir danışmanlık şirketidir. 
+        Müşteri odaklı yaklaşımımız ve yüksek hizmet standartlarımızla, her bireyin ve yatırımcının ihtiyacına özel çözümler sunmayı amaçlıyoruz.
+      </p>
+      <p>
+        Alanında deneyimli ekibimiz, yalnızca gayrimenkul hizmeti sunmakla kalmaz; 
+        aynı zamanda <em><strong>stratejik yatırım fırsatlarıyla</strong></em> müşterilerine uzun vadeli değer katar. 
+        Bizim için her danışan, bir işlemden fazlasıdır—<strong>bir iş ortaklığıdır</strong>.
+      </p>
+      <p>
+        Modern pazarlama yöntemleri ve sektöre özel analizlerle, alıcı ve satıcı arasındaki süreci 
+        <strong>etkin, şeffaf ve güvenilir</strong> şekilde yönetiyoruz. 
+        Hızlı ve sürdürülebilir çözümlerle, sektörün değişen dinamiklerine uyum sağlıyor ve 
+        <em><strong>güçlü duruşumuzu</strong></em> her geçen gün pekiştiriyoruz.
+      </p>
+      <p>
+        <strong style="color: #BE1A1B;">Bayraktar Yatırım Danışmanlık</strong> olarak; 
+        dürüstlük, sadakat ve profesyonelliği ilke edinmiş bir anlayışla, 
+        sizi yalnızca bugüne değil, <em><strong>yarına da hazırlıyoruz</strong></em>. <br>
+        Gayrimenkul yolculuğunuzun her adımında yanınızdayız.
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- Misyonumuz Paneli -->
+<div id="mission-panel" style="display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; background:rgba(0,0,0,0.35); z-index:9999;">
+  <div style="background:#fff; max-width:520px; margin:60px auto; border-radius:10px; padding:32px; position:relative;">
+    <button onclick="document.getElementById('mission-panel').style.display='none'" style="position:absolute; top:14px; right:14px; background:#eee; border:none; border-radius:50%; width:32px; height:32px; font-size:18px; cursor:pointer;">×</button>
+    <h2>Misyonumuz</h2>
+    <div style="font-family: Arial, sans-serif; color: #333; line-height: 1.6; font-size: 16px; max-width: 800px; margin: 40px auto;">
+      <h2 style="color: #BE1A1B; font-weight: bold;">Misyonumuz</h2>
+      <p>
+        Bayraktar Yatırım Danışmanlık olarak misyonumuz; müşterilerimize güvenilir, şeffaf ve sürdürülebilir 
+        gayrimenkul hizmetleri sunarak, onların yaşamlarına ve yatırımlarına gerçek değer katmaktır.
+      </p>
+      <p>
+        Her bireyin ihtiyacına özel çözümler üretmeyi ilke edinen yaklaşımımızla, yalnızca bugünün değil, 
+        <strong>geleceğin yaşam ve yatırım alanlarını da</strong> şekillendirmeye katkı sağlıyoruz.
+      </p>
+      <p>
+        <strong>Dürüstlük, sorumluluk ve profesyonellik</strong> temel değerlerimizdir. 
+        Sektörde fark yaratan hizmet anlayışımızla, müşterilerimizin her adımda yanında olmayı ve 
+        beklentilerinin ötesine geçmeyi hedefliyoruz.
+      </p>
+    </div>
+  </div>
+</div>
 
 <!-- Sayfa içerik düzeni: ana içerik + sağ panel -->
 <div style="display:flex; flex-direction:row; gap:24px; align-items:flex-start;">
 
   <!-- Sol ana blok (boş bırakabilirsin/ilerde içerik ekleyebilirsin) -->
   <div style="flex:1; min-width:160px;">
-    <!-- Buraya ana içerik ekleyebilirsin -->
+    <!-- Ana içerik boş -->
   </div>
 
   <!-- Sağ panel -->
@@ -62,6 +117,5 @@ title: Bayraktar Yatırım Danışmanlık
         </div>
       </div>
     </div>
-
   </div>
 </div>
