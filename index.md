@@ -16,7 +16,7 @@ body {
 <div style="margin-bottom: 24px;">
   <button onclick="document.getElementById('about-panel').style.display='block'" style="margin-right:16px; background:#0056b3; color:#fff; border:none; border-radius:7px; padding:8px 16px; font-weight:bold; cursor:pointer;">Hakkımızda</button>
   <button onclick="document.getElementById('mission-panel').style.display='block'" style="margin-right:16px; background:#0056b3; color:#fff; border:none; border-radius:7px; padding:8px 16px; font-weight:bold; cursor:pointer;">Misyonumuz</button>
-  <button onclick="document.getElementById('offices-panel').style.display='block'" style="background:#FFD700; color:#333; border:none; border-radius:7px; padding:10px 22px; font-weight:bold; cursor:pointer; font-size:17px;">
+  <button onclick="document.getElementById('offices-panel').style.display='block'" style="background:#5D0808; color:#333; border:none; border-radius:7px; padding:10px 22px; font-weight:bold; cursor:pointer; font-size:17px;">
     Ofisler ve Danışmanlarımız
   </button>
 </div>
@@ -38,7 +38,7 @@ body {
     <button onclick="document.getElementById('about-panel').style.display='none'" style="position:absolute; top:14px; right:14px; background:#fff; color:#be1a1b; border:none; border-radius:50%; width:32px; height:32px; font-size:22px; font-weight:bold; cursor:pointer;">×</button>
     <h2 style="color: #FFD700; font-weight: bold; font-size:2.1em; text-align:center; margin-top:0; margin-bottom:24px; letter-spacing: 0.5px;">Hakkımızda</h2>
     <div style="line-height: 1.6; max-width: 800px; margin: 0 auto;">
-      <h3 style="color: #FFD700; font-weight: bold; font-size:1.25em; margin-bottom:14px;">Bayraktar Yatırım Danışmanlık</h3>
+      <h3 style="color: #5D0808; font-weight: bold; font-size:1.25em; margin-bottom:14px;">Bayraktar Yatırım Danışmanlık</h3>
       <p style="font-size: 1em;">
         <strong>Bayraktar Yatırım Danışmanlık</strong>, gayrimenkul sektöründe uzmanlığı ve güvenilirliğiyle öne çıkan bir danışmanlık şirketidir. 
         Müşteri odaklı yaklaşımımız ve yüksek hizmet standartlarımızla, her bireyin ve yatırımcının ihtiyacına özel çözümler sunmayı amaçlıyoruz.
