@@ -1,7 +1,6 @@
 ---
 layout: null
 title: "Bayraktar Yatırım Danışmanlık"
-
 ---
 
 # Hoş Geldiniz
