@@ -1,3 +1,26 @@
+---
+layout: default
+title: Bayraktar Yatırım Danışmanlık
+---
+
+<style>
+body {
+  /* Sayfanın tamamında dikey degrade arka plan */
+  background: linear-gradient(to bottom, #be1a1b 0%, #5D0808 100%);
+}
+</style>
+
+# Bayraktar Yatırım Danışmanlık
+
+<!-- Menü: Başlığın altında, tıklanabilir buton olarak -->
+<div style="margin-bottom: 24px;">
+  <button onclick="document.getElementById('about-panel').style.display='block'" style="margin-right:16px; background:#0056b3; color:#fff; border:none; border-radius:7px; padding:8px 16px; font-weight:bold; cursor:pointer;">Hakkımızda</button>
+  <button onclick="document.getElementById('mission-panel').style.display='block'" style="margin-right:16px; background:#0056b3; color:#fff; border:none; border-radius:7px; padding:8px 16px; font-weight:bold; cursor:pointer;">Misyonumuz</button>
+  <button onclick="document.getElementById('offices-panel').style.display='block'" style="background:#FFD700; color:#333; border:none; border-radius:7px; padding:10px 22px; font-weight:bold; cursor:pointer; font-size:17px;">
+    Ofisler ve Danışmanlarımız
+  </button>
+</div>
+
 <!-- Hakkımızda Paneli -->
 <div id="about-panel" style="display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; background:rgba(0,0,0,0.35); z-index:9999;">
   <div onclick="event.stopPropagation()" style="
