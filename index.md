@@ -28,7 +28,7 @@ body {
 }
 .menu-btn:hover,
 .menu-btn:focus {
-  color: #FFD700;
+  color: #a9a9a9;
   text-decoration: underline;
 }
 .panel-popup-bg {
@@ -48,7 +48,7 @@ body {
   box-shadow:0 4px 24px #0005;
 }
 .panel-title-h2 {
-  color: #FFD700;
+  color: #be1a1b;
   font-weight: bold;
   font-size:2.1em;
   text-align:left;
