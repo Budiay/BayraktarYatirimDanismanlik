@@ -1,13 +1,8 @@
 title: "Bayraktar Yatırım Danışmanlık"
 description: "Emlak ve İnşaat sektöründe güvenilir, şeffaf ve kaliteli hizmet"
 
-remote_theme: pages-themes/minimal@v0.2.0
-plugins: # add this line to the plugins list if you already have one
-
-plugins:
-  - jekyll-remote-theme
-
-url: "https://budiay.github.io"
+url: "https://budiay.github.io/bayraktaryatirimdanismanlik"
 baseurl: "/bayraktaryatirimdanismanlik"
 
 lang: "tr"
+plugins: []
