@@ -1,16 +1,12 @@
-title: Bayraktar Yatırım Danışmanlık
-description: Emlak ve İnşaat sektöründe güvenilir, şeffaf ve kaliteli hizmet
+title: "Bayraktar Yatırım Danışmanlık"
+description: "Emlak ve İnşaat sektöründe güvenilir, şeffaf ve kaliteli hizmet"
 
-remote_theme: pages-themes/minimal@v0.2.0
+remote_theme: pages-themes/architect@v0.3.0
+
 plugins:
-- jekyll-remote-theme
+  - jekyll-remote-theme
 
-url: "https://budiay.github.io"
+url: "https://budiay.github.io/bayraktaryatirimdanismanlik"
 baseurl: "/bayraktaryatirimdanismanlik"
 
-lang: tr
-
-social:
-  twitter: your_twitter_username
-  linkedin: your_linkedin_profile
-  instagram: your_instagram_username
+lang: "tr"
