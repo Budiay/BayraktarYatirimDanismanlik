@@ -1,31 +1,20 @@
-title: "Bayraktar Yatırım Danışmanlık"
-description: "Emlak ve İnşaat sektöründe güvenilir, şeffaf ve kaliteli hizmet"
+title: Bayraktar Yatırım Danışmanlık
+description: Emlak ve İnşaat sektöründe güvenilir, şeffaf ve kaliteli hizmet
 
-remote_theme: pages-themes/architect@v0.3.0
+theme: jekyll-theme-architect
 
-plugins:
-  - jekyll-remote-theme
+# Eğer GitHub Pages kullanıyorsan "theme:" satırını kullan
+# "remote_theme:" satırı sadece Jekyll + GitHub Actions ile çalışan özel durumlar içindir.
 
-# Sosyal medya ikonları (footer için görünür olabilir)
+# GitHub Pages URL'in:
+url: "https://budiay.github.io"
+baseurl: "/bayraktaryatirimdanismanlik"
+
+# Sayfa dili
+lang: tr
+
+# Sosyal medya (şimdilik gösterilmez ama ileride lazım olabilir)
 social:
   twitter: your_twitter_username
   linkedin: your_linkedin_profile
   instagram: your_instagram_username
-
-# Site URL (GitHub Pages linkin)
-url: "https://budiay.github.io"
-baseurl: "/bayraktaryatirimdanismanlik"
-
-# SEO ve meta ayarları
-seo:
-  type: "organization"
-  name: "Bayraktar Yatırım Danışmanlık"
-  description: "Emlak ve İnşaat sektöründe güvenilir, şeffaf ve kaliteli hizmet sunuyoruz."
-  logo: "/assets/images/logo.png"  # Bu dosyayı ilgili dizine yüklemelisin.
-
-# Footer mesajı
-footer:
-  message: "© 2025 Bayraktar Yatırım Danışmanlık. Güvenle evinizi seçin, geleceğinizi kurun."
-
-# Varsayılan dil
-lang: "tr"
