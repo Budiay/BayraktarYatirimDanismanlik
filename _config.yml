@@ -1,6 +1,37 @@
 title: "Bayraktar Yatırım Danışmanlık"
-description: "Emlak ve İnşaat sektöründe güvenilir hizmet"
+description: "Emlak ve İnşaat sektöründe güvenilir, şeffaf ve kaliteli hizmet"
+
 remote_theme: minimal-mistakes/minimal-mistakes
 
 plugins:
   - jekyll-remote-theme
+
+# Tema renk paleti özelleştirmesi
+minimal_mistakes_skin: "default"  # Temanın açık ve kurumsal görünümü için default skin
+# Renk düzenini minimal-mistakes'ın sunduğu default skin içinde tutuyoruz.
+# İstersen daha sonra özel CSS ile renklerimizi tam ayarlayabiliriz.
+
+# Sosyal medya linkleri (isteğe bağlı)
+social:
+  twitter: your_twitter_username
+  linkedin: your_linkedin_profile
+  instagram: your_instagram_username
+
+# Site url (GitHub Pages linkin)
+url: "https://budiay.github.io/bayraktaryatirimdanismanlik"
+baseurl: "/bayraktaryatirimdanismanlik"  # Repo adı ile aynı olmalı
+
+# SEO ve meta ayarları
+seo:
+  type: "organization"
+  name: "Bayraktar Yatırım Danışmanlık"
+  description: "Emlak ve İnşaat sektöründe güvenilir, şeffaf ve kaliteli hizmet sunuyoruz."
+  logo: "/assets/images/logo.png"  # Daha sonra logo eklersen yolunu buraya yazacağız.
+
+# Footer veya sayfa altı tanıtım mesajı
+footer:
+  message: "© 2025 Bayraktar Yatırım Danışmanlık. Güvenle evinizi seçin, geleceğinizi kurun."
+
+# Kişisel tercihin olarak dil Türkçe
+lang: "tr"
+
