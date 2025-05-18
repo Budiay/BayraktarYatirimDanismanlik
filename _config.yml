@@ -1,19 +1,15 @@
 title: Bayraktar Yatırım Danışmanlık
 description: Emlak ve İnşaat sektöründe güvenilir, şeffaf ve kaliteli hizmet
 
-theme: jekyll-theme-architect
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+- jekyll-remote-theme
 
-# Eğer GitHub Pages kullanıyorsan "theme:" satırını kullan
-# "remote_theme:" satırı sadece Jekyll + GitHub Actions ile çalışan özel durumlar içindir.
-
-# GitHub Pages URL'in:
 url: "https://budiay.github.io"
 baseurl: "/bayraktaryatirimdanismanlik"
 
-# Sayfa dili
 lang: tr
 
-# Sosyal medya (şimdilik gösterilmez ama ileride lazım olabilir)
 social:
   twitter: your_twitter_username
   linkedin: your_linkedin_profile
