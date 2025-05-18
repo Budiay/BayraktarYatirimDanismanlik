@@ -1,0 +1,12 @@
+title: "Bayraktar Yatırım Danışmanlık"
+description: "Emlak ve İnşaat sektöründe güvenilir, şeffaf ve kaliteli hizmet"
+url: "https://budiay.github.io/bayraktaryatirimdanismanlik"
+baseurl: "/bayraktaryatirimdanismanlik"
+lang: "tr"
+
+markdown: kramdown
+
+sass:
+  sass_dir: ""
+
+plugins: []
