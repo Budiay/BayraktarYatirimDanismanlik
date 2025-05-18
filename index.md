@@ -47,17 +47,12 @@ body {
   font-size: 15px;
   box-shadow:0 4px 24px #0005;
 }
-.panel-title-bg {
-  background: linear-gradient(to right, #C4C2CC 0%, rgba(196,194,204,0) 100%);
-  padding: 10px 0 10px 18px;
-  margin-bottom:24px;
-}
 .panel-title-h2 {
   color: #FFD700;
   font-weight: bold;
   font-size:2.1em;
   text-align:left;
-  margin:0;
+  margin:0 0 24px 0;
   letter-spacing: 0.5px;
 }
 </style>
@@ -75,9 +70,7 @@ body {
 <div id="about-panel" style="display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; background:rgba(0,0,0,0.35); z-index:9999;">
   <div class="panel-popup-bg" onclick="event.stopPropagation()">
     <button onclick="document.getElementById('about-panel').style.display='none'" style="position:absolute; top:14px; right:14px; background:#fff; color:#be1a1b; border:none; border-radius:50%; width:32px; height:32px; font-size:22px; font-weight:bold; cursor:pointer;">×</button>
-    <div class="panel-title-bg">
-      <h2 class="panel-title-h2">Hakkımızda</h2>
-    </div>
+    <h2 class="panel-title-h2">Hakkımızda</h2>
     <div style="line-height: 1.6; max-width: 800px; margin: 0 auto;">
       <h3 style="color: #FFD700; font-weight: bold; font-size:1.25em; margin-bottom:14px;">Bayraktar Yatırım Danışmanlık</h3>
       <p style="font-size: 1em;">
@@ -109,9 +102,7 @@ body {
 <div id="mission-panel" style="display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; background:rgba(0,0,0,0.35); z-index:9999;">
   <div class="panel-popup-bg" onclick="event.stopPropagation()">
     <button onclick="document.getElementById('mission-panel').style.display='none'" style="position:absolute; top:14px; right:14px; background:#fff; color:#be1a1b; border:none; border-radius:50%; width:32px; height:32px; font-size:22px; font-weight:bold; cursor:pointer;">×</button>
-    <div class="panel-title-bg">
-      <h2 class="panel-title-h2">Misyonumuz</h2>
-    </div>
+    <h2 class="panel-title-h2">Misyonumuz</h2>
     <div style="line-height: 1.6; max-width: 800px; margin: 0 auto;">
       <h3 style="color: #FFD700; font-weight: bold; font-size:1.25em; margin-bottom:14px;">Misyonumuz</h3>
       <p style="font-size: 1em;">
@@ -135,9 +126,7 @@ body {
 <div id="offices-panel" style="display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; background:rgba(0,0,0,0.35); z-index:9999;">
   <div class="panel-popup-bg" onclick="event.stopPropagation()">
     <button onclick="document.getElementById('offices-panel').style.display='none'" style="position:absolute; top:14px; right:14px; background:#fff; color:#be1a1b; border:none; border-radius:50%; width:32px; height:32px; font-size:22px; font-weight:bold; cursor:pointer;">×</button>
-    <div class="panel-title-bg">
-      <h2 class="panel-title-h2">Ofisler ve Danışmanlarımız</h2>
-    </div>
+    <h2 class="panel-title-h2">Ofisler ve Danışmanlarımız</h2>
     <div style="margin-bottom:18px;">
       <div style="display: flex; align-items: center; justify-content: space-between;">
         <strong>Trabzon - Ortahisar</strong>
